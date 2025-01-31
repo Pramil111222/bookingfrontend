@@ -1,0 +1,46 @@
+.calendar-container {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    .fc-header-toolbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .fc-header-toolbar .fc-toolbar-chunk {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fc-dayGridMonth-view,
+    .fc-timeGridWeek-view,
+    .fc-timeGridDay-view {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .fc-toolbar-title {
+        font-size: 1.2rem;
+    }
+
+    .fc-event {
+        font-size: 0.8rem;
+        padding: 2px 4px;
+    }
+
+    .fc-daygrid-day-number {
+        font-size: 0.8rem;
+    }
+
+    .fc-daygrid-day-events {
+        max-height: 50px;
+        overflow-y: auto;
+    }
+}

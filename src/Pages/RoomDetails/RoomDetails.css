@@ -1,0 +1,100 @@
+  h3 {
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"] {
+    font-size: 16px;
+  }
+  
+  .facilities-list label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .add-room-button,
+  .remove-room-button,
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .add-room-button:hover,
+  .remove-room-button:hover,
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .remove-room-button {
+    background-color: #dc3545;
+  }
+  
+  .remove-room-button:hover {
+    background-color: #a71d2a;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 15px;
+    }
+  
+    input,
+    select {
+      font-size: 14px;
+    }
+  
+    .add-room-button,
+    .remove-room-button,
+    .submit-button {
+      font-size: 14px;
+    }
+  }
+  
+  .facilities-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.facility-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    min-width: 100px;
+}
+
+.facility-card.selected {
+    border-color: #007bff;
+    background-color: #e7f3ff;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.facility-card:hover {
+    background-color: #f1f1f1;
+}

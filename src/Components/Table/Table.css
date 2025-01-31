@@ -1,0 +1,14 @@
+@media screen and (min-width:1720px) {
+    .table-scroll {
+        max-height: 580px;
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+}
+@media screen and (max-width:1700px) {
+    .table-scroll {
+        max-height: 380px;
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+}

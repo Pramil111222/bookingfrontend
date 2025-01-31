@@ -1,0 +1,63 @@
+.packages-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    .table th,
+    .table td {
+        padding: 8px;
+    }
+
+    .btn-add-package {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal {
+        width: 90%;
+        margin: auto;
+    }
+
+    .modal-content {
+        padding: 10px;
+    }
+
+    .modal-header,
+    .modal-body,
+    .modal-footer {
+        padding: 10px;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .form-control {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
